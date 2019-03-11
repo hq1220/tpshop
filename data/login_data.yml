@@ -1,0 +1,20 @@
+#test_login:
+#  -
+#    - "18703663683"
+#    - "hq1220"
+#    - "failed"
+#  -
+#    - "187036636831"
+#    - "hq1220"
+#    - "not exist"
+
+test_login:
+  test_login_001:
+    username: "18703663683"
+    password: "hq1220"
+    toast: "success"
+    screen: "screen_login_001"
+#  test_login_002:
+#    username: "187036636831"
+#    password: "hq1220"
+#    toast: "not exist"
